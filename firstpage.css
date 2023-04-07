@@ -511,6 +511,18 @@ color: rgba(57, 20, 0, 0.64);
   .left-9 img {
     width: 450px;
   }
+  .logos {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+  } 
+  .logos >img {
+    width: 130px;
+    margin: 10px 0;
+}
+  
 
 @media screen and (max-width: 720px) {
   .pic1 img {
