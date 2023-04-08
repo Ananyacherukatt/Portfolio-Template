@@ -348,6 +348,8 @@ line-height: 32px; */
   gap: 2rem;
   display: flex;
   flex-direction: column;
+  margin-top: 2rem
+  ;
 }
 .line2 {
   width: 1170px;
@@ -693,6 +695,7 @@ line-height: 32px; */
 }
 .section-12 {
   background-color: #32334c;
+  padding-top: 7rem;
 }
 .box {
   width: 370px;
@@ -815,6 +818,7 @@ line-height: 32px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-top: 5rem;
 }
 .slide-wrapper {
   display: flex;
@@ -1885,6 +1889,7 @@ line-height: 32px; */
     /* align-items: center; */
     /* max-width: 0 auto; */
     padding: 0 2rem;
+    gap: 1rem;
   }
   .hr-coloured {
     width: 329px;
@@ -2105,6 +2110,15 @@ line-height: 32px; */
 }
 .pic22 img {
     width: 300px;
+}
+.sub-sub-head{
+    margin: 0 2rem;
+}
+.about-us-button{
+    margin: 0 2rem;
+}
+.right-16 {
+    padding-top: 3rem;
 }
 }
   
