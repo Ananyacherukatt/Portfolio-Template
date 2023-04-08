@@ -2086,7 +2086,18 @@ line-height: 32px; */
     align-items: center;
     justify-content: center;
 }
-  }
+.right-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+  
   
 
 
