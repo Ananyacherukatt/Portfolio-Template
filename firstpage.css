@@ -2078,6 +2078,10 @@ line-height: 32px; */
      align-items:start;
      gap: 1rem;
   }
+  .star-des{
+    font-size: 20px;
+  }
+  
 }
 
 
