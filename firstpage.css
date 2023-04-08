@@ -1958,6 +1958,7 @@ line-height: 32px; */
   }
   #section-21-button {
     align-self: flex-start;
+    margin: 0 1rem;
   }
   .footer-contents {
     display: flex;
@@ -2064,6 +2065,10 @@ line-height: 32px; */
   }
   .boxe{
     width: 330px;
+  }
+  .sub-head-20 {
+    margin: 0 1rem;
+    font-size: 21px;
   }
 }
 
