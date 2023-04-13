@@ -58,6 +58,8 @@ body {
   line-height: 64px;
   letter-spacing: -1px;
   color: #ffffff;
+  z-index: 8;
+  position: relative;
 }
 .grey-heads {
   font-family: "Epilogue";
@@ -293,14 +295,25 @@ line-height: 32px; */
 }
 .section-4 {
   background-color: #fdf0e9;
-  padding-top: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
 }
+
 .boxes {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
+.sta img {
+    position: absolute;
+
+    top: 14rem;
+    left: 25rem;
+    z-index: 1;
+}
+
 .boxe {
   width: 391px;
   height: 176px;
@@ -729,7 +742,7 @@ line-height: 32px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1rem;
+  padding: 4rem 1rem;
 }
 .images {
   display: flex;
@@ -1970,6 +1983,12 @@ line-height: 32px; */
   .box {
     width: 340px;
   }
+  .sta img {
+    position: absolute;
+    top: 34rem;
+    left: 14rem;
+    z-index: 1;
+}
   .section-5 {
     background-color: #fdf0e9;
     display: flex;
