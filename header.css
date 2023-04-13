@@ -12,12 +12,12 @@ body {
 
 .inner-polygon {
   position: absolute;
-  top: 13px;
-  left: 13px;
+  top: 15px;
+  left: 14px;
 }
 header {
   background-color: #28293e;
-  padding: 16px 23px;
+  padding: 35px 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -28,6 +28,9 @@ header {
   font-size: 24px;
   line-height: 32px;
   color: #ffffff;
+}
+#section-5-line {
+  margin-top: 4rem;
 }
 .side-menu-bar {
   width: 35px;
@@ -47,21 +50,28 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 38px;
+  gap: 140px;
 }
 .contact-button {
-  width: 100%;
-  padding: 10px;
+  /* width: 130%; */
+  /* padding: 15px; */
   border: 1px solid rgba(255, 255, 255, 0.295743);
   border-radius: 6px;
   background-color: #28293e;
   color: white;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding: 10px 20px;
 }
 
-
-
-
- /* code for mobile view  */
+/* code for mobile view  */
 @media screen and (max-width: 720px) {
   .center-elements {
     display: none;
@@ -70,18 +80,12 @@ header {
     display: block;
   }
 
- .contact-button {
+  .contact-button {
     display: none;
   }
-  /* .pic1 img {
-    width: 300px;
-  }
-  .pic2 img {
-    width: 300px;
-  }
-  .total-content{
-    flex-direction: column-reverse;
-  } */
+ header {
+  padding: 35px 30px;
+ }
 }
 /* 
 @media screen and (min-width: 721px) {

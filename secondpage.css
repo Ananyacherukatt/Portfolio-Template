@@ -1,0 +1,268 @@
+.section-1 {
+  background-color: #28293e;
+  padding-bottom: 5rem;
+}
+.main-head {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+
+  /* text-align: center; */
+  letter-spacing: -2px;
+
+  color: #ffffff;
+}
+.sub-head {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  text-align: center;
+
+  /* Text_Light_Gray */
+
+  color: rgba(255, 255, 255, 0.64);
+}
+.head-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30rem;
+}
+.section-2 {
+  background-color: #fdf0e9;
+}
+.orange-head {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.black-head {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.section-2-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 5rem;
+  gap: 1rem;
+  padding-top: 5rem;
+}
+.grey-head {
+  /* margin: 0 306px; */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  /* Text_Dark_Gray */
+
+  color: rgba(57, 20, 0, 0.64);
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.section-3 {
+  background-color: #fdf0e9;
+}
+.section-3-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+}
+.right-pic {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.row1 {
+  display: flex;
+  gap: 1rem;
+}
+.row2 {
+  display: flex;
+  gap: 1rem;
+}
+.section-4 {
+  background-color: #fdf0e9;
+}
+.black-des {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  /* Text_Dark */
+
+  color: #391400;
+}
+
+.section-3-sub-head {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.section-3-main-head {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.first-shadow-box {
+  width: 770px;
+  height: 336px;
+  background: #ffffff;
+  border: 1px solid;
+  /* border-radius: 6px; */
+  position: relative;
+  /* left: -18rem; */
+  opacity: 0.5;
+}
+.second-shadow-box {
+  width: 770px;
+  height: 400px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #f3d1bf;
+  box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+  border-radius: 0px 0px 6px 6px;
+  z-index: 9999;
+  margin-top: -2rem;
+}
+.shadow-image-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+#star-des-second-page {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+#second-shadow-box-second-page {
+  /* left: -19rem; */
+  position: relative;
+  margin-top: 0;
+  width: 80rem;
+}
+.first-shadow-box3 {
+  width: 770px;
+  height: 336px;
+  background: #ffffff;
+  border: 1px solid;
+  /* border-radius: 6px; */
+  position: relative;
+  /* left: 4rem; */
+  opacity: 0.5;
+}
+#second-page-des {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  margin-top: -25px;
+}
+#second-page-section-16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #28293e;
+}
+.section-55 {
+  background-color: #32334c;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+@media screen and (max-width: 720px) {
+  .head-1 {
+    margin: 0 3rem;
+  }
+  .section-2-cont {
+    flex-direction: column;
+    margin: 0rem;
+    align-items: center;
+  }
+  .section-3-cont {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .left-pic img {
+    width: 300px;
+  }
+  .row1 img {
+    width: 150px;
+  }
+  .row2 img {
+    width: 150px;
+  }
+  .left-8 {
+    display: flex;
+    align-items: center;
+  }
+  .orange-head {
+    display: flex;
+    align-self: flex-start;
+  }
+  .right2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shadow-image-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .first-shadow-box{
+    display: none;
+  }
+  .first-shadow-box3{
+    display: none;
+  }
+  #second-shadow-box-second-page{
+    width: 23rem;
+  }
+  .second-shadow-box{
+    height: 40rem;
+  }
+}
